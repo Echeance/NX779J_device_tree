@@ -8,7 +8,7 @@
 | **Android** | 16 (API 36) |
 | **Partition scheme** | Virtual A/B + dynamic partitions |
 | **Encryption** | Hardware-wrapped key FBE + metadata encryption |
-| **Maintainer** | [Ympax](https://github.com/ympax14) |
+| **Maintainer** | [Ympax](https://github.com/echeance) |
 
 Shared device tree for TWRP, OrangeFox, PitchBlack, and future AOSP ROM builds.
 
@@ -34,7 +34,7 @@ Shared device tree for TWRP, OrangeFox, PitchBlack, and future AOSP ROM builds.
 
 | Repo | Description |
 |---|---|
-| [NX779J_device_tree](https://github.com/ympax14/NX779J_device_tree) | This repo — shared device tree |
+| [NX779J_device_tree](https://github.com/echeance/NX779J_device_tree) | This repo — shared device tree |
 
 ---
 
@@ -54,7 +54,7 @@ repo sync -j$(nproc) --no-tags --no-clone-bundle
 ### Clone this device tree
 
 ```bash
-git clone https://github.com/ympax14/NX779J_device_tree device/nubia/NX779J
+git clone https://github.com/echeance/NX779J_device_tree device/nubia/NX779J
 ```
 
 ### Build TWRP
